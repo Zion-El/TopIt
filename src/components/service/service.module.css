@@ -1,0 +1,133 @@
+.containerr {
+  border-radius: 1.5rem;
+  background: #F1FBFF;
+  padding: 3rem;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.containerr p {
+  color: #333;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: 'Poppins';
+  font-weight: 600;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.serviceContainer {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+
+@media only screen and (max-width: 77.1875em) {
+  .serviceContainer {
+    margin-left: 10px;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 63.9375em) {
+  .serviceContainer {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+  }
+
+  .containerr {
+    border-radius: 1.5rem;
+    background: #F1FBFF;
+    width: 16rem;
+    /* height: 18.5rem; */
+
+  }
+}
+
+
+@media only screen and (max-width: 61.25em) {
+  .serviceContainer {
+    gap: 2.34rem;
+    margin-left: 20%;
+    margin-right: auto;
+
+  }
+
+  .containerr {
+    width: 13.6595rem;
+    height: 13.3rem;
+    padding: 2.0739rem 3.4748rem 4.673rem 3.429rem;
+  }
+}
+
+@media only screen and (max-width: 40.875em) {
+  .serviceContainer {
+    gap: 2.34rem;
+    margin-left: 13px;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 39.625em) {
+  .containerr {
+    width: 12rem;
+    height: auto;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .serviceContainer {
+    margin-left: 0px;
+    gap: 2rem;
+  }
+
+  .containerr p {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media only screen and (max-width: 35.9375em) {
+  .icon {
+    width: 3rem;
+  }
+
+  .containerr p {
+    font-size: .8rem;
+    margin-top: .5rem;
+    line-height: 1.3rem;
+  }
+
+  .containerr {
+    width: 9rem;
+  }
+
+  .serviceContainer {
+    padding: 0 !important;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 23.9375em) {
+  .containerr {
+    width: 15rem;
+  }
+}
