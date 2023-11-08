@@ -32,7 +32,7 @@
 }
 
 .hovered-icon {
-  color: 333;
+  color: #333;
   font-family: 'Inter';
   font-size: 1.4rem;
   font-style: normal;
@@ -94,6 +94,13 @@
   .serviceContainer {
     gap: 2.34rem;
   }
+
+  .containerr {
+    width: 13.6595rem;
+    padding: 2rem;
+    height: 14rem;
+  }
+
 }
 
 @media only screen and (max-width: 39.625em) {
@@ -123,15 +130,18 @@
 
   .containerr {
     width: 13rem;
-    height: 14rem;
+    height: 12rem;
+  }
+
+  .hovered-icon {
+    font-size: 1.2rem;
   }
 
 }
 
 @media only screen and (max-width: 32.6875em) {
   .containerr {
-    width: 12rem;
-    height: 14rem;
+    width: 13rem;
   }
 
   .serviceContainer {
@@ -143,17 +153,34 @@
 
 @media only screen and (max-width: 32.6875em) {
   .containerr {
-    width: 11rem;
-    height: 14rem;
+    /* width: 11rem; */
+    height: 11rem;
+  }
+
+  .hovered-icon {
+    font-size: 1rem;
+  }
+
+  .containerr p {
+    font-size: 1rem;
   }
 
 }
 
-@media only screen and (max-width: 26.5em) {
+@media only screen and (max-width: 26.875em) {
   .containerr {
-    width: 10rem;
-    height: 14rem;
+    width: 11rem;
+    /* height: 14rem; */
     padding: 1rem 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 24.6875em) {
+  .containerr {
+    width: 9.5rem;
+    height: 10.5rem;
+    padding: 3rem 2rem;
   }
 
 }
@@ -162,7 +189,20 @@
   .serviceContainer {
     grid-template-columns: repeat(2, 1fr);
     max-width: 450px;
-
   }
 
+  .containerr {
+    border-radius: 1.0837rem;
+  }
+
+}
+
+@media screen and (max-width: 325px) {
+  .serviceContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .containerr {
+    width: 15rem;
+  }
 }

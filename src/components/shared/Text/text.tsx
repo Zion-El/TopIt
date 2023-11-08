@@ -24,7 +24,7 @@ function Mytext(
   return (
     <div>
         <Text   
-            fontSize={{ lg : "18px" , base : "12px" }}
+            fontSize={{ lg : "18px" , base : "16px" }}
             color={color}
             fontWeight={weight}
             fontFamily={family}

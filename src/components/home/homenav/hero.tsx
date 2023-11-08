@@ -8,7 +8,7 @@ function Hero() {
     <div className=' mx-auto sm:pt-0 pt-[116px] '>
         <div className='md:flex  mx-auto justify-between pt-[40px] items-center w-[85%] h-[100vh] '>
             <div className='max-w-[444px]  '>
-                <h1 className='text-[#000] font-rope sm:text-[44.914px] text-[30px] sm:text-left text-center font-[800] sm:leading-[65.33px] leading-[40px] sm:tracking-[-1.347px] tracking-[-0.9px] ' >Nigeria’s No.1 Choice For <span className='text-[#26B9ED]'> Airtime, Data And Bills Payment</span></h1>
+                <h1 className='text-[#000] font-rope sm:text-[44.914px] text-[30px] sm:text-left text-center font-[800] sm:leading-[65.33px] leading-[40px] sm:tracking-[-1.347px] tracking-[-0.9px] '>Nigeria’s No.1 Choice For <span className='text-[#26B9ED]'> Airtime, Data And Bills Payment</span></h1>
                 <p className=' sm:mt-0 mt-[10px] text-[#4F4F4F] sm:text-left text-center sm:text-[18px] text-[14px] max-w-[420px]'>We simply make you stay connected online, with friends and family and paying bills effortlessly.</p>
                 <div className='mt-[12px] flex sm:justify-start justify-center '>
                         

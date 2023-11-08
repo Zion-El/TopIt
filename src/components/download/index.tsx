@@ -19,16 +19,18 @@ const Download = () => {
             </div>
             <div className='flex space-x-6 max-w-[474px] items-center '>
                 <div className='w-1/2'>
-                    <img src="images/svgs/gPlay.svg" alt="google" />
+                    <a href=""><img src="images/svgs/gPlay.svg" alt="google" /></a>
+                    
                 </div>
                 <div className='w-1/2'>
-                    <img src="images/svgs/AppStore.svg" alt="apple" />
+                    <a href=""><img src="images/svgs/AppStore.svg" alt="apple" /></a>
+                    
                 </div>
                     
                     
                 </div>
         </div>
-        <div className='flex-1md:flex md:justify-center md:items-center'>
+        <div className='flex-1md:flex md:justify-center md:items-center' data-aos='flip-down' data-aos-easing='ease-in-out' data-aos-duration='600'>
             <Image className='mx-auto' src={'images/svgs/Dashboard.svg'} width={300} height={610} alt='dashboard'/>
         </div>            
         </div>
