@@ -13,6 +13,7 @@
 
 .container {
     padding: 3rem 5rem;
+    margin-inline: auto;
 }
 
 

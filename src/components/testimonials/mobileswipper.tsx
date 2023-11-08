@@ -57,5 +57,15 @@ interface CardType {
       name: "Oye",
       text: "Fantastic app! I've tried others, but this one stands out. Quick transactions, no extra charges, highly satisfied!",
     },
+    {
+      id: 4,
+      name: "Oye",
+      text: "Fantastic app! I've tried others, but this one stands out. Quick transactions, no extra charges, highly satisfied!",
+    },
+    {
+      id: 5,
+      name: "Oye",
+      text: "Fantastic app! I've tried others, but this one stands out. Quick transactions, no extra charges, highly satisfied!",
+    },
   ];
 

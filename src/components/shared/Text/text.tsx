@@ -1,9 +1,9 @@
 import React from 'react'
+import { Text } from '@chakra-ui/react'
 
 
 interface props {
     text :string
-    size :string
     color : string
     weight? : string
     family :  string
@@ -11,10 +11,9 @@ interface props {
     py? : string
 }
 
-function Text( 
+function Mytext( 
     {
         text, 
-        size , 
         color , 
         weight, 
         family, 
@@ -24,21 +23,18 @@ function Text(
     props) {
   return (
     <div>
-        <p style={
-            {
-                fontSize: size,
-                color: color,
-                fontWeight : weight,
-                fontFamily: family,
-                paddingBlock: py,
-                paddingInline: px
-            }
-            }
+        <Text   
+            fontSize={{ lg : "18px" , base : "12px" }}
+            color={color}
+            fontWeight={weight}
+            fontFamily={family}
+            px={px}
+            py={py}
         >
             {text}
-        </p>
+        </Text>
     </div>
   )
 }
 
-export default Text
+export default Mytext

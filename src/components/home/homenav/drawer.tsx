@@ -37,7 +37,6 @@ function DrawerNav() {
                                             py='25px'
                                             color='#fff'
                                             weight='500'
-                                            size='15.6px'
                                             family='urbanist'
                                             text= {item.name}
                                         />

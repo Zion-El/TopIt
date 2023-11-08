@@ -63,11 +63,11 @@ const Why: React.FC = () => {
           <h1 className="font-[inter] text-white opacity-50 font-[800] text-[32px] lg:text-[57px]">Why TopitupNG</h1>
         </div>
         <div className='flex w-full lg:w-[50%] flex-col mt-8 lg:mt-0'>
-          <div className=' h-[100px] relative w-full lg:w-[80%]  '>
+          <div className=' h-[80px] relative w-full lg:w-[80%]  '>
            {data.map((item, index) => (
             <div className={index === currentSlide ? "slide current " : "slide"} key={item.id}>
-                <p className="text-[#28C0F1] text-[16px] lg:text-[24px] font-[inter]">
-                  <span className="text-[#fff] font-[600]">{item.title}</span>
+                <p className="text-[#28C0F1] text-[16px] lg:text-[20px] font-[inter]">
+                  <span className="text-[#fff] font-[600]"> {item.title}</span>
                   {item.text}
                 </p>
             </div>
