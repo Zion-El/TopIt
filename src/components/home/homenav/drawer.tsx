@@ -87,4 +87,14 @@ function DrawerNav() {
       name: 'Contact Us',
       path: '#contact',
     },
+    {
+      id: 6,
+      name: 'Login',
+      path: '#login',
+    },
+    {
+      id: 7,
+      name: 'Sign Up',
+      path: '#signUp',
+    },
   ];
