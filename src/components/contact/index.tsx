@@ -5,7 +5,7 @@ const list = [
     {
         imgLink: 'images/svgs/phoneIcon.svg',
         title:'PHONE',
-        text:'+234*********'
+        text:'+234********'
     },
     {
         imgLink: 'images/svgs/mapIcon.svg',
