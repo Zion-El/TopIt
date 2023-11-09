@@ -5,7 +5,7 @@ const list = [
     {
         imgLink: 'images/svgs/phoneIcon.svg',
         title:'PHONE',
-        text:'+234********'
+        text:'091-1444-1444'
     },
     {
         imgLink: 'images/svgs/mapIcon.svg',
@@ -15,7 +15,7 @@ const list = [
     {
         imgLink: 'images/svgs/mailIcon.svg',
         title:'EMAIL',
-        text:'******@gmail.com'
+        text:'customersupport@cdlphubltd.com'
     },
 ]
 
