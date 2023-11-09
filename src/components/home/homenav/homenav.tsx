@@ -67,8 +67,8 @@ function Homenav() {
                       px='15px'
                       py='25px'
                       color={activeLink === item.id ? '#28C0F1' : '#141F39'}
-                      weight='500'
-                      family='urbanist'
+                      weight='400'
+                      family='inter'
                       text={item.name}
                     />
                   </Link>
@@ -83,7 +83,7 @@ function Homenav() {
               width={'136px'}
               height={'47px'}
               bgcolor='transparent'
-              border='2px solid #28C0F1'
+              border='2px solid #041A8E'
               fontsize={'15px'}
               fontWeight={700}
               textColor='#041A8E'
