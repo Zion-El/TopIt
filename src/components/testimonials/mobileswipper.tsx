@@ -8,7 +8,7 @@ import Card from './card';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 export default function Mobileswipper() {
   return (
@@ -20,7 +20,8 @@ export default function Mobileswipper() {
           clickable: true,
           el: ''
         }}
-        modules={[Pagination]}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
         {cardData.map((item) => (

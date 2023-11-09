@@ -2,7 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 import Card from './card';
 
 function Swipe() {
@@ -21,7 +21,8 @@ function SwiperComponent() {
       pagination={{
         clickable: true,
       }}
-      modules={[Pagination]}
+      autoplay={{ delay: 2500, disableOnInteraction: false }}
+      modules={[Pagination, Autoplay]}
       className="bg-transparent"
     >
       {cardData.map((item) => (
@@ -57,4 +58,14 @@ const cardData: CardType[] = [
     name: "Oye",
     text: "Fantastic app! I've tried others, but this one stands out. Quick transactions, no extra charges, highly satisfied!",
   },
+  {
+    id: 4,
+    name: "Anonymous",
+    text: "Their products and services are lifesaver! Quick and convenient, and I love the various payment options available.",
+  },
+  {
+    id: 5,
+    name: "Anonymous",
+    text: "I Love TopitupNg! Super easy to use, and the data and airtime top-up happens instantly. Highly recommended!",
+  }
 ];

@@ -10,24 +10,29 @@ interface SlideData {
 const data: SlideData[] = [
   {
     id: 1,
-    title: "Simplified Online Presence:",
-    text: "Access and manage your mobile recharges, utility bills online easily."
+    title: "24/7 Customer Support:",
+    text: "We offer round-the-clock customer support, ensuring to assist your queries any time."
   },
   {
     id: 2,
-    title: "Online Presence:",
-    text: "Access and manage your mobile recharges, utility bills online easily."
+    title: "99.9% Server Reliability:",
+    text: "Rely on our consistent service without disruptions."
   },
   {
     id: 3,
-    title: "Simplified Presence:",
-    text: "Access and manage your mobile recharges, utility bills online easily."
+    title: "Discounts Offers:",
+    text: "Be prepared to enjoy discount offers to save up."
   },
   {
     id: 4,
-    title: "Simplified Online:",
-    text: "Access and manage your mobile recharges, utility bills online easily."
+    title: "Stable Pricing:",
+    text: "We provide transparent pricing for accountability."
   },
+  {
+    id: 5,
+    title: "Fastness and Convenient:",
+    text: "Access easily to recharge airtime, buy data and pay your bills without hassle. "
+  }, 
 ];
 
 const Why: React.FC = () => {
