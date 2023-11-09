@@ -30,22 +30,22 @@ function Homenav() {
     {
       id: 2,
       name: 'About us',
-      path: '/about/',
+      path: '#why',
     },
     {
       id: 3,
       name: 'Services',
-      path: '/service',
+      path: '#service',
     },
     {
       id: 4,
       name: 'Testimonials',
-      path: '/Testimonials',
+      path: '#testimonial',
     },
     {
       id: 5,
       name: 'Contact Us',
-      path: '/contact',
+      path: '#contact',
     },
   ];
 

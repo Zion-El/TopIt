@@ -3,7 +3,7 @@ import React from 'react'
 
 const Download = () => {
   return (
-    <section className='container'>
+    <section id='download' className='container'>
         <div className='flex flex-col md:flex-row justify-between items-center lg:px-20'>
         <div className='flex-1 flex flex-col space-y-6 text-center md:text-left'>
             <h3 className='text-pryColor font-[inter] text-[28px] md:text-[38px] lg:text-[60px] md:leading-[60px] lg:leading-[73px] font-[700] lg:w-[80%] max-w-[450px] '>Download TopitupNG App</h3>
@@ -30,8 +30,8 @@ const Download = () => {
                     
                 </div>
         </div>
-        <div className='flex-1md:flex md:justify-center md:items-center' data-aos='flip-down' data-aos-easing='ease-in-out' data-aos-duration='600'>
-            <Image className='mx-auto' src={'images/svgs/Dashboard.svg'} width={300} height={610} alt='dashboard'/>
+        <div className='flex-1 md:flex md:justify-center md:items-center' data-aos='flip-down' data-aos-easing='ease-in-out' data-aos-duration='600'>
+            <Image className='mx-auto' src={'images/svgs/Dashboard.svg'} width={400} height={610} alt='dashboard'/>
         </div>            
         </div>
 

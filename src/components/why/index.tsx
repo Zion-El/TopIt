@@ -57,7 +57,7 @@ const Why: React.FC = () => {
   }, [currentSlide, autoScroll]);
 
   return (
-    <section className="container w-full h-[270px] bg-pryColor flex justify-center items-center">
+    <section id='why' className="container w-full h-[270px] bg-pryColor flex justify-center items-center">
       <div className="flex flex-col lg:flex-row items-center justify-center py-6 lg:w-[80%] lg:space-x-6">
         <div className='w-full lg:w-[50%]'>
           <h1 className="font-[inter] text-white opacity-50 font-[800] text-[32px] lg:text-[57px]">Why TopitupNG</h1>

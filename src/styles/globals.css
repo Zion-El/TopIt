@@ -17,6 +17,12 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: -3em;
+}
+
+
 .slide {
     position: absolute;
     opacity: 0;

@@ -63,28 +63,28 @@ function DrawerNav() {
 
   const links = [
     {
-        id:1,
-        name: "Home",
-        path:"/"
+      id: 1,
+      name: 'Home',
+      path: '/',
     },
     {
-        id:2,
-        name: "About us",
-        path:"about/"
+      id: 2,
+      name: 'About us',
+      path: '#why',
     },
     {
-        id:3,
-        name: "Services",
-        path:"/service"
+      id: 3,
+      name: 'Services',
+      path: '#service',
     },
     {
-        id:4,
-        name: "Testimonials",
-        path:"/Testimonials"
+      id: 4,
+      name: 'Testimonials',
+      path: '#testimonial',
     },
     {
-        id:5,
-        name: "Contact Us",
-        path:"/contact"
+      id: 5,
+      name: 'Contact Us',
+      path: '#contact',
     },
-]
+  ];

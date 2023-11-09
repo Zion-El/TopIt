@@ -28,12 +28,12 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
 	};
 	const iconClass = hovered ? styles["hovered-icon"] : "";
 	return (
-		<div 
+		<div
 			className={styles.containerr}
 			onMouseEnter={handleMouseEnter}
 			onMouseLeave={handleMouseLeave}
 		>
-			<div className={styles.icon} >
+			<div className={styles.icon}>
 				{!hovered && <img src={icon} alt={text} className="iconImg" />}
 				{hovered && <p>{hoverText}</p>}
 				{/* {hovered && <Link href="/service">{hoverIcon}</Link>} */}
@@ -41,7 +41,7 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
 			</div>
 			{!hovered && <p>{text}</p>}
 			{hovered && (
-				<Link href="/service">
+				<Link href="">
 					<span className={iconClass}>{hoverIcon}</span>
 				</Link>
 			)}
@@ -51,22 +51,24 @@ const ServiceBox: React.FC<ServiceBoxProps> = ({
 };
 
 function Services() {
-
-
 	return (
-		<div className="container">
+		<div id="service" className="container">
 			<div className={styles.serviceContainer}>
-				{servicesData.map((service, index) => ( 
-					<div key={index} data-aos='fade-up' data-aos-easing='ease-in-out' data-aos-duration='600' data-aos-delay={`${index * 100}`}>
-					<ServiceBox
-						
-						icon={service.icon}
-						text={service.text}
-						hoverText={service.hoverText}
-						hoverIcon={service.hoverIcon}
-					/>
+				{servicesData.map((service, index) => (
+					<div
+						key={index}
+						data-aos="fade-up"
+						data-aos-easing="ease-in-out"
+						data-aos-duration="600"
+						data-aos-delay={`${index * 100}`}
+					>
+						<ServiceBox
+							icon={service.icon}
+							text={service.text}
+							hoverText={service.hoverText}
+							hoverIcon={service.hoverIcon}
+						/>
 					</div>
-
 				))}
 			</div>
 		</div>

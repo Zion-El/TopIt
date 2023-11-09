@@ -21,7 +21,7 @@ const list = [
 
 const Contact = () => {
   return (
-    <section className='w-full bg-[#FFF] container  py-10  max-w-[1440px] mx-auto' data-aos="zoom-in-left" data-aos-easing="ease-in" data-aos-duration="600">
+    <section id='contact'  className='w-full bg-[#FFF] container  py-10  max-w-[1440px] mx-auto' data-aos="zoom-in-left" data-aos-easing="ease-in" data-aos-duration="600">
       <div className='flex justify-center items-center gap-4 mb-10'>
         <div className='bg-[#041A8E] h-[5px] w-[5px] rounded-[50%]'></div>
         <div><h3 className='text-[#041A8E] font-[700] text-[32px]'>Contact Us</h3></div>
