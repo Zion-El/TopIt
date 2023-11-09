@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React, {useEffect, useState} from 'react'
 import CountUp from 'react-countup'
-import ScrollTrigger from 'react-scroll-trigger'
 
 const Download = () => {
     const [countOn, setCountOn] = useState(false)
