@@ -53,14 +53,18 @@ const Footer = () => {
 
   const resourceLinks = [
     { href: '', text: 'FAQ' },
+    { href: '', text: 'Blog' },
     { href: '', text: 'Private Policy' },
     { href: '', text: 'Terms of Service' },
   ];
 
   const contactLinks = [
-    { href: '', text: '091-1444-1444' },
-    { href: '', text: 'customersupport@cdlphubltd.com' },
-    { href: '', text: '34, Road 19 OYSHC Estate, Akobo Ibadan, Oyo State, Nigeria' },
+    { href: '', text: 'Buy Airtime' },
+    { href: '', text: 'Buy Data' },
+    { href: '', text: 'Subscribe Cable Tv' },
+    { href: '', text: 'Pay for Electricity' },
+    { href: '', text: 'Result Checker' },
+    { href: '', text: 'Broadband Internet' },
   ];
 
   return (
@@ -84,9 +88,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <FooterLinkList title="Services" links={serviceLinks} />
+        <FooterLinkList title="Company" links={serviceLinks} />
         <FooterLinkList title="Resources" links={resourceLinks} />
-        <FooterLinkList title="Contact Us" links={contactLinks} />
+        <FooterLinkList title="Services" links={contactLinks} />
         <div className="flex md:hidden space-x-6 items-center mt-6 mb-6 ">
           {socialLinks.map((link, index) => (
             <SocialLink key={index} href={link.href} src={link.src} alt={link.alt} />
